@@ -1,0 +1,92 @@
+.characters {
+  position: relative;
+  background: var(--blacksand);
+  border: 1px solid var(--dusk);
+  border-left: 0;
+  border-right: 0;
+  box-shadow: 0 0 3rem var(--cerulean);
+  margin: 0 auto 2rem;
+  width: 100%;
+}
+
+.characters .title-wrapper {
+  position: absolute;
+  top: -2.1rem;
+  left: calc(50% - 10rem);
+  z-index: 20;
+}
+
+.character-profile {
+  width: 100%;
+  height: 30rem;
+  color: white;
+  filter: hue-rotate(-16deg);
+}
+
+.character-profile.flora {
+  background: url("http://localhost:3000/images/background-flora.jpg") left center / cover no-repeat;
+}
+
+.character-profile.jake {
+  background: url("http://localhost:3000/images/background-jake.jpg") left center / cover no-repeat;
+}
+
+.character-profile.cidna {
+  background: url("http://localhost:3000/images/background-cidna.jpg") left center / cover no-repeat;
+}
+
+.character-profile.nighthawk {
+  background: url("http://localhost:3000/images/background-nighthawk.jpg") left center / cover no-repeat;
+}
+
+.character-profile > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.character-profile > .container > aside {
+  flex: 1;
+  background: var(--parfum);
+  box-shadow: inset 0 0 5rem var(--dusk), 0 0 5rem var(--petal);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  text-shadow: 0 2px 0 var(--petal);
+}
+
+.character-profile > .container > aside h2 {
+  font: 400 normal 2em "Bubbler One", sans-serif;
+}
+
+.character-profile > .container > aside p {
+  font: 400 normal 1.1em sans-serif;
+  line-height: 2.2em;
+}
+
+.character-profile > .container > img {
+  flex: 1;
+  max-height: 20rem;
+  object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+  .character-profile {
+    height: 50rem;
+    padding: 30rem 0;
+  }
+
+  .character-profile > .container {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+
+  .character-profile:nth-of-type(odd) > .container {
+    flex-direction: column-reverse;
+  }
+
+  .character-profile > .container > img {
+    min-height: 20rem;
+    max-height: 100%;
+  }
+}

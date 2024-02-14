@@ -1,0 +1,38 @@
+:root {
+  --cerulean: #3d4fee;
+  --blacksand: #262228;
+  --blackglass: #26222850;
+  --blackash: #26222875;
+  --metal: #807487;
+  --carbon: #80748750;
+  --silver: #d0c9d3;
+  --greenlight: #00ff7e;
+  --greenglow: #00ff7e50;
+  --pineneedle: #1f9359;
+  --algae: #1f935950;
+  --cybernetic: #13ffff;
+  --ionglow: #13ffff50;
+  --twilight: #4339c6;
+  --fog: #4339c650;
+  --dusk: #9919db;
+  --parfum: #9919db50;
+  --grapesoda: #4f176b;
+  --bruise: #4f176b50;
+  --orchid: #e70399;
+  --petal: #e7039950;
+  --plum: #631149;
+  --redlight: #f31232;
+  --redglow: #f3123250;
+  --burgundy: #931c2e;
+  --iodine: #931c2e50;
+  --traffic-cone: #ff6c00;
+  --sunglass: #ff6c0050;
+  --rust: #894b1e;
+  --dust: #894b1e50;
+  --hazard: #e4e703;
+  --outage: #e4e70350;
+  --peasoup: #787a12;
+  --antique: #787a1250;
+  --midnight: #1d1a47;
+  --royal : #35164d;
+}

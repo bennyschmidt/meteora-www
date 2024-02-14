@@ -1,0 +1,23 @@
+.article.container {
+  position: relative;
+  background: black;
+  border-radius: 1rem;
+  border: 1px solid var(--dusk);
+  box-shadow: 0 0 3rem var(--cerulean);
+  margin: 0 auto 2rem;
+}
+
+.article > div {
+  position: absolute;
+  top: -2.1rem;
+  left: calc(50% - 10rem);
+  z-index: 10;
+}
+
+.article p {
+  color: white;
+  text-align: left;
+  line-height: 2.6em;
+  margin: 6rem 15%;
+  font-size: 1.1em;
+}

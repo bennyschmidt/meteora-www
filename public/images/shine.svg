@@ -1,0 +1,12 @@
+<svg
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="50%" stop-color="transparent" />
+      <stop offset="66%" stop-color="white" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url('#shine')" />
+</svg>

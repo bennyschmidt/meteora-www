@@ -1,0 +1,33 @@
+.payment-form {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, .5);
+  z-index: 1000;
+}
+
+.payment-form > div {
+  width: 50%;
+  border-radius: 1rem;
+  background: linear-gradient(to top right, var(--dusk) 48%, var(--twilight));
+  color: white;
+  box-shadow: 0 0 4rem var(--greenglow);
+  padding: 2rem;
+  font: 600 normal 1em "Bubbler One", sans-serif;
+}
+
+.payment-form h3 {
+  font-size: 1.5em;
+}
+
+@media (max-width: 1024px) {
+  .payment-form > div {
+    width: 90vw;
+  }
+}

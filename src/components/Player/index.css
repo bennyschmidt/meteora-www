@@ -1,0 +1,19 @@
+.player.container {
+  position: relative;
+  background: black;
+  border-radius: 1rem;
+  border: 1px solid var(--dusk);
+  box-shadow: 0 0 3rem var(--cerulean);
+  height: 40rem;
+  line-height: 40rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: white;
+}
+
+.player > div {
+  position: absolute;
+  top: -2.1rem;
+  left: calc(50% - 10rem);
+  z-index: 10;
+}
