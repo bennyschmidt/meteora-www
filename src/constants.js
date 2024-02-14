@@ -1,4 +1,5 @@
-const BASE_URL = 'http://localhost:1337/meteora';
+// const BASE_URL = 'http://localhost:1337/meteora';
+const BASE_URL = 'https://exactchange.network/meteora';
 const ROOT_PATH = '/';
 const STORY_PATH = '/story';
 const CHARACTERS_PATH = '/characters';
@@ -15,10 +16,10 @@ const CTA_TEXT = {
 };
 
 const SQUARE_CONFIG = {
-  SQUARE_APP_ID: 'sandbox-sq0idb-wyDnCeGb3xKoq1jDladoBA',
-  SQUARE_LOCATION_ID: 'LREEPV1REVAGE',
-  // SQUARE_APP_ID: 'sq0idp-rT4cOK5_kccyWm8GYOnS0g',
-  // SQUARE_LOCATION_ID: 'LZQA0FV1D50R3',
+  // SQUARE_APP_ID: 'sandbox-sq0idb-wyDnCeGb3xKoq1jDladoBA',
+  // SQUARE_LOCATION_ID: 'LREEPV1REVAGE',
+  SQUARE_APP_ID: 'sq0idp-rT4cOK5_kccyWm8GYOnS0g',
+  SQUARE_LOCATION_ID: 'LZQA0FV1D50R3'
 };
 
 export {

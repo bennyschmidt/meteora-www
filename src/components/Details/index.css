@@ -8,7 +8,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  background: black url("http://localhost:3000/images/meteor.png") center center / cover no-repeat;
+  background: black url("../../../public/images/meteor.png") center center / cover no-repeat;
   box-shadow: inset 0 0 8rem var(--grapesoda), 0 0 4rem var(--dusk);
   padding-bottom: 3rem;
 }

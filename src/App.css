@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  background: url('http://localhost:3000/images/background.jpg') center top / cover no-repeat;
+  background: url('../public/images/background.jpg') center top / cover no-repeat;
   min-height: 100vh;
 }
 
@@ -57,7 +57,7 @@
   top: 0;
   bottom: 0;
   border-radius: inherit;
-  background: url('http://localhost:3000/images/shine.svg') 0 25% / cover no-repeat;
+  background: url('../public/images/shine.svg') 0 25% / cover no-repeat;
   opacity: .2;
   z-index: 1;
 }

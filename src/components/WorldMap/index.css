@@ -1,6 +1,6 @@
 .world-map {
   position: relative;
-  background: black url("http://localhost:3000/images/world-map.png") center bottom / cover no-repeat;
+  background: black url("../../../public/images/world-map.png") center bottom / cover no-repeat;
   border: 1px solid var(--dusk);
   border-left: 0;
   border-right: 0;

@@ -24,19 +24,19 @@
 }
 
 .character-profile.flora {
-  background: url("http://localhost:3000/images/background-flora.jpg") left center / cover no-repeat;
+  background: url("../../../public/images/background-flora.jpg") left center / cover no-repeat;
 }
 
 .character-profile.jake {
-  background: url("http://localhost:3000/images/background-jake.jpg") left center / cover no-repeat;
+  background: url("../../../public/images/background-jake.jpg") left center / cover no-repeat;
 }
 
 .character-profile.cidna {
-  background: url("http://localhost:3000/images/background-cidna.jpg") left center / cover no-repeat;
+  background: url("../../../public/images/background-cidna.jpg") left center / cover no-repeat;
 }
 
 .character-profile.nighthawk {
-  background: url("http://localhost:3000/images/background-nighthawk.jpg") left center / cover no-repeat;
+  background: url("../../../public/images/background-nighthawk.jpg") left center / cover no-repeat;
 }
 
 .character-profile > .container {

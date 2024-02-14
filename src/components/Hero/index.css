@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('http://localhost:3000/images/flora-hero.png') center top / 60rem no-repeat;
+  background: url('../../../public/images/flora-hero.png') center top / 60rem no-repeat;
   height: 18rem;
   opacity: .86;
 }
